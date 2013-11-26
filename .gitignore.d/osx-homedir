@@ -1,6 +1,4 @@
 *
-!.gitignore.d
 !.gitignore.d/osx-homedir
 !.slate
-!.zsh.d
 !.zsh.d/my_path.zsh.Darwin
