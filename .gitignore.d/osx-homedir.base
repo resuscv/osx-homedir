@@ -1,0 +1,5 @@
+# Additional files/directories specific to OSX that I want to ignore
+.CFUserTextEncoding
+.DS_Store
+.Trash
+Library
