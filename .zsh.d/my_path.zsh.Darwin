@@ -1,6 +1,8 @@
 # -*- shell-script -*-
 #
 # Yay for HomeBrew.
-MY_PATH="${MY_PATH}:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/sbin"
+MY_PATH="${MY_PATH}:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/sbin:${HOME}/software/installed/taskjuggler/bin"
 # Update manpath
 MY_MANPATH="${MY_MANPATH}:/usr/local/opt/coreutils/libexec/gnuman"
+# Configure gem to find the installed files
+export GEM_HOME=${HOME}/software/installed/taskjuggler
