@@ -1,5 +1,12 @@
-# Additional files/directories specific to OSX that I want to ignore
+# 0: Additional files/directories specific to OSX that I want to ignore
+# 1:
+# 2: It's better if this file is sorted:   'sort -fu osx-homedire.base'
 .CFUserTextEncoding
 .DS_Store
+.localized
+.rnd
 .Trash
+Applications
+Documents/mac-system-setup.txt
 Library
+Public

@@ -6,3 +6,8 @@ MY_PATH="${MY_PATH}:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/sbin:${HO
 MY_MANPATH="${MY_MANPATH}:/usr/local/opt/coreutils/libexec/gnuman"
 # Configure gem to find the installed files
 export GEM_HOME=${HOME}/software/installed/taskjuggler
+
+
+## Other machine localisations
+# htop needs to be run as sudo:  https://github.com/Homebrew/homebrew/issues/23150#issuecomment-26054377
+alias top='sudo htop'
