@@ -3,5 +3,7 @@
 !.gitignore.d/osx-homedir.base
 !.slate
 !.zsh.d/my_path.zsh.Darwin
+!bin/gpg
 !bin/mac-system-setup.sh
+!bin/xdg_open
 ~/Documents/mac-system-setup.txt
